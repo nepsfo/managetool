@@ -21,6 +21,7 @@ import org.testng.annotations.Test;
 import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 
 public class TestAppiumNew {
+	//testing added
 	//WebDriver driver;
 	AppiumDriver driver;
 	@Test (enabled=false)
