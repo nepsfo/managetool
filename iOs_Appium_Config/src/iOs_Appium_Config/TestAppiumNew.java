@@ -29,6 +29,7 @@ public class TestAppiumNew {
 		System.out.println("I'm here");
 		System.out.println("now there");
 		System.out.println("added from sublime");
+		System.out.println("added again from sublime");
 	}
 	@Test (enabled=false)
 	public void appTest() throws MalformedURLException{
