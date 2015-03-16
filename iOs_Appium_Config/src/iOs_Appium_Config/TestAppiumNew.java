@@ -27,6 +27,7 @@ public class TestAppiumNew {
 	@Test(enabled=true)
 	public void testTest(){
 		System.out.println("I'm here");
+		System.out.println("now there");
 	}
 	@Test (enabled=false)
 	public void appTest() throws MalformedURLException{
