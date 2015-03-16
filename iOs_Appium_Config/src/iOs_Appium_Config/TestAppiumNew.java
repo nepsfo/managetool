@@ -24,6 +24,10 @@ public class TestAppiumNew {
 	//testing added
 	//WebDriver driver;
 	AppiumDriver driver;
+	@Test(enabled=true)
+	public void testTest(){
+		System.out.println("I'm here");
+	}
 	@Test (enabled=false)
 	public void appTest() throws MalformedURLException{
 		/*
@@ -42,7 +46,7 @@ public class TestAppiumNew {
 		System.out.println("Testing Here");
 		*/
 	}
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void realDevice() throws MalformedURLException{
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", "iOS");
@@ -76,7 +80,7 @@ public class TestAppiumNew {
 		*/
 		
 	}
-	@AfterTest
+	@AfterTest (enabled=false)
 	public void closeSession(){
 		if(driver != null){
 			driver.quit();
